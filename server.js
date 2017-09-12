@@ -64,10 +64,3 @@ module.exports = {app, runServer, closeServer};
 // app.listen(process.env.PORT || 8080, () => {
 //   console.log(`Your app is listening on port ${process.env.PORT || 8080}`);
 // });
-
-
-// *** STEPS
-// add dummy data and get GET working
-// add POST
-// add PUT
-// add DELETE
