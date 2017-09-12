@@ -1,8 +1,9 @@
 language: node_js
 node_js: node
 deploy:
+  provider: heroku
   api_key:
     secure: RQJNMZ7IxhSLZHRr3pndFlW6hXmQaQc9BfVXGTr/NN5zYxC8I0UeCje6f4g0USn2RjkU3w+pMBTbXuW9GKa+ZfsgnID+LvdNXcFInuUd0oziL5GRCcS3D8SDFCkBojJ+3hJ+1kd6/o2iVK21+FKSP5GYNGAtKLjC2yEpOWKeneRuyQWhV5vZ+a8xcd8g4pVtGmjuc+9pX1wwQD4rQRtTYUAlQOhHl4YCZys9SW7Y1cll6OJAkhw/SyLuLJU2uaRq8Yem+701Y7b+vpdx9WAlBgAfL5HwUOIN1nRo3sSnr5lDVNOVtj+JZF/CmUp0mVlAvZ6+l17LZ9qKa1tAEMoNiMJVv2rAGKbWvKikH4FixVBIqtH2MytLQUElFzzNf/J6Zi/8SOlu+P03Hz8WrTPLKOF6LhzwSoB1mSSYO4Bu8htEDfa08s5ZdJl+oYf/UcggX3l4QjKZJDtLWkdWcJ3uRyUklEJxBbe+G3qO047+Svw9VYL+9hJdEwkhtuhZTOfh7d+d+hktzXGeN+wN3mMWMo/WnBm1zq+R/yYFEq0dXI2yoefpgws3kNv2ULfuYS2PAdT92Dk+wrZAZA8p64QyxS6XHTSBgvBxahH4+gVBqv8LAZzZDPqYtMhavOa54C6+tvAS4Azhg+66Km6Jb3lFcnNNtSlGYaS2HB9zcgt+ZV0=
-app: dry-castle-62953
+  app: dry-castle-62953
   on:
     repo: ericpcho/blog-posts-2.0
